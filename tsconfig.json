@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "stripInternal": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "newLine": "LF",
+    "outDir": "dist",
+    "lib": [
+      "es2019",
+      "es2019.array",
+      "dom",
+			"es6",
+			"esnext.asynciterable"
+    ],
+    
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "resolveJsonModule": true,
+  },
+	"exclude": ["node_modules"],
+	"include": ["./src/**/*.tsx", "./src/**/*.ts"]
+}
